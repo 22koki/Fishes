@@ -1,8 +1,12 @@
 
+css
 /* Top bar styling */
 .top-bar {
-    background-color: #0eafe0; /* Light blue background */
-    padding: 10px; /* 10px padding around content */
-    text-align: center; /* Center-aligned text */
-    font-size: 18px; /* 18px font size */
+    background-color: aqua;
+    color: black;
+    font-size: xx-large;
+    font-weight: 900;
+    padding: 10px;
 }
+    
+
