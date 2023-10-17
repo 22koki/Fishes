@@ -14,13 +14,19 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+h2 {
     font-size: 50px;
-    color: #0717f1;
+    color: #0a0a0a;
     margin-top: 10px; /* Adjust the margin to control the spacing */
   text-transform: uppercase; /* Convert text to uppercase */
   font-weight: bold; /* Make the text bold */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+}
+p{
+    font-size: x-large;
+    color: #0a0a0a;
+    line-height: 2rem;
+    
 }
 
 button {
@@ -33,6 +39,15 @@ button {
 }
 
 #kittenImages {
-    margin-top: 25px;
-    display: inline;
+    margin-top: 30px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px; /* Adjust the gap between images */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
 }
