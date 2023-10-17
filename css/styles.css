@@ -26,9 +26,18 @@ p{
     font-size: x-large;
     color: #0a0a0a;
     line-height: 2rem;
-    
-}
 
+}
+.icon{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.icon-2{
+    position: relative;
+    margin-left: 50%;
+    height: 70%;
+}
 button {
     background-color: #007BFF;
     color: #fff;
