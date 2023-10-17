@@ -9,4 +9,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     getKittenButton.addEventListener("click", fetchKittenImage);
+    kittenImagesContainer.addEventListener("mouseover", function() {
+        // Your mouseover event handler code goes here
+        // This code will run when the mouse pointer moves over the kittenImagesContainer
+    });
 });
