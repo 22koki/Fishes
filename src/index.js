@@ -64,4 +64,23 @@ fetchDogFacts(5);
 
 // Fetch a specific dog fact by index
 fetchDogFacts(undefined, 3);
-
+function displayDogs(data) {
+    let divEl = document.getElementById("all-dogs");
+  
+    let dogs = "";
+    for (let i = 0; i < data.length; i++) {
+      let dog = data[i];
+      dogs =
+        dogs +
+        `
+        <div class="a-dog">
+        <img
+          src="${dog.image_url}"
+        />
+        <div>
+          <p>Name:<span>${dog.common_name}</span></p>
+        </div>
+      </div> 
+        `;
+    }
+    divE1.innerHTML = dogs;}
