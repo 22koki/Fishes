@@ -18,7 +18,7 @@ Cats are one of the most beloved animals in the world, and this repository is a 
 
 ## Demo
 
-You can access the cat images and content by visiting the following link: [Cats Demo](https://example.com/cats).
+You can access the cat images and content by visiting the following link: [Cats Demo](https://placekitten.com).
 
 ## Getting Started
 
